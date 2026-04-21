@@ -30,7 +30,10 @@ class _LoginScreenState extends State<LoginScreen> {
         padding: const EdgeInsets.symmetric(horizontal: 28),
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Color.fromARGB(255, 5, 65, 176), Color.fromARGB(255, 4, 78, 207)],
+            colors: [
+              Color.fromARGB(255, 6, 16, 34),
+              Color.fromARGB(255, 18, 55, 118),
+            ],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
